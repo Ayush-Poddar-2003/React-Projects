@@ -1,0 +1,28 @@
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px;
+  height: 72px;
+  /* border: 2px solid red; */
+}
+
+.navigation ul{
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  font-weight: 500;
+}
+
+.logo {
+  height: 72px; 
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  /* border: 2px solid red; */
+  max-height: 80%; /* now works, based on .logo's height */
+  width: auto;
+  object-fit: contain;
+}
