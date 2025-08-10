@@ -1,12 +1,14 @@
 .Contactheader{
-    max-width: 1000px;
+    width: 1000px;
     margin: 0 auto;
+    /* border: 2px solid red; */
 }
 .Contactheader h1{
     /* border: 2px solid red; */
     font-size: 48px;
     font-weight: 800;
-    max-width: 80%;
+    width: 80%;
+    display: flex;
 }
 .Contactheader p{
     font-weight: 500;

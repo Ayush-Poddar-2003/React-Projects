@@ -60,7 +60,7 @@ export function ContactForm(){
             </div>
 
             <div className={styles.contactImage}>
-                <img src="./images/aunty.png" alt="" />
+                <img src="./images/NA.jpg" alt="" />
             </div>
 
         </section>
